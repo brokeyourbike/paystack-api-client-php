@@ -1,5 +1,5 @@
 {
-    "name": "brokeyourbike/paystack-api-client-php",
+    "name": "brokeyourbike/paystack-api-client",
     "description": "Paystack API Client for PHP",
     "type": "library",
     "license": "MPL-2.0",
