@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.1.1](https://www.github.com/brokeyourbike/paystack-api-client-php/compare/v0.1.0...v0.1.1) (2021-12-25)
+
+
+### Bug Fixes
+
+* use php 8.1 ([059cb64](https://www.github.com/brokeyourbike/paystack-api-client-php/commit/059cb6464a2d4572b62f685c14f72322bf248e8b))
+
+
+### Miscellaneous Chores
+
+* update badge link ([4bf47d6](https://www.github.com/brokeyourbike/paystack-api-client-php/commit/4bf47d6b8b8f6a9999eec5991e43f067d4489987))
+
 ## 0.1.0 (2021-12-19)
 
 
