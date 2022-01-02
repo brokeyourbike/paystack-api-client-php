@@ -23,9 +23,16 @@ class ClientTest extends TestCase
     /** @test */
     public function it_implemets_http_client_interface(): void
     {
-        $api = new Client(new ConfigFixture(), new \GuzzleHttp\Client());
+        /** @var ConfigInterface */
+        $mockedConfig = $this->getMockBuilder(ConfigInterface::class)->getMock();
+
+        /** @var \GuzzleHttp\ClientInterface */
+        $mockedHttpClient = $this->getMockBuilder(\GuzzleHttp\ClientInterface::class)->getMock();
+
+        $api = new Client($mockedConfig, $mockedHttpClient);
 
         $this->assertInstanceOf(HttpClientInterface::class, $api);
+        $this->assertSame($mockedConfig, $api->getConfig());
     }
 
     /** @test */

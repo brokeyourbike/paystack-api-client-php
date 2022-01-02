@@ -8,8 +8,8 @@
 
 namespace BrokeYourBike\Paystack;
 
-use Psr\Http\Message\ResponseInterface;
 use BrokeYourBike\ResolveUri\ResolveUriTrait;
+use BrokeYourBike\Paystack\ResolveAccountNumberResponse;
 use BrokeYourBike\Paystack\ConfigInterface;
 use BrokeYourBike\HttpClient\HttpClientTrait;
 use BrokeYourBike\HttpClient\HttpClientInterface;
@@ -30,10 +30,14 @@ class Client implements HttpClientInterface
         $this->httpClient = $httpClient;
     }
 
-    public function resolveAccountNumberRaw(string $bankCode, string $accountNumber): ResponseInterface
+    public function getConfig(): ConfigInterface
+    {
+        return $this->config;
+    }
+
+    public function resolveAccountNumberRaw(string $bankCode, string $accountNumber): ResolveAccountNumberResponse
     {
         $options = [
-            \GuzzleHttp\RequestOptions::HTTP_ERRORS => false,
             \GuzzleHttp\RequestOptions::HEADERS => [
                 'Accept' => 'application/json',
                 'Authorization' => 'Bearer ' . $this->config->getSecretKey(),
@@ -45,6 +49,8 @@ class Client implements HttpClientInterface
         ];
 
         $uri = (string) $this->resolveUriFor($this->config->getUrl(), 'bank/resolve');
-        return $this->httpClient->request('GET', $uri, $options);
+        $response = $this->httpClient->request('GET', $uri, $options);
+
+        return new ResolveAccountNumberResponse($response);
     }
 }
