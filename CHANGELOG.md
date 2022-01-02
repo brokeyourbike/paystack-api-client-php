@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/brokeyourbike/paystack-api-client-php/compare/v0.2.0...v0.3.0) (2022-01-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* use response model
+
+### Features
+
+* use response model ([4e832af](https://www.github.com/brokeyourbike/paystack-api-client-php/commit/4e832af9de688b8cfe4a25af41af5ed338f55fc5))
+
 ## [0.2.0](https://www.github.com/brokeyourbike/paystack-api-client-php/compare/v0.1.0...v0.2.0) (2021-12-25)
 
 
