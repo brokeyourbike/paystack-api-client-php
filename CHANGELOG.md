@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.3.1](https://www.github.com/brokeyourbike/paystack-api-client-php/compare/v0.3.0...v0.3.1) (2022-01-03)
+
+
+### Bug Fixes
+
+* update `brokeyourbike/data-transfer-object` ([40b62c7](https://www.github.com/brokeyourbike/paystack-api-client-php/commit/40b62c7e185812165837b6b30ad2300be31ef261))
+* use separate folders ([a0e8f6e](https://www.github.com/brokeyourbike/paystack-api-client-php/commit/a0e8f6ed14d020b85a99fe237814374cf0a07fab))
+
 ## [0.3.0](https://www.github.com/brokeyourbike/paystack-api-client-php/compare/v0.2.0...v0.3.0) (2022-01-02)
 
 
