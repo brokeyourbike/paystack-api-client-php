@@ -9,8 +9,8 @@
 namespace BrokeYourBike\Paystack;
 
 use BrokeYourBike\ResolveUri\ResolveUriTrait;
-use BrokeYourBike\Paystack\ResolveAccountNumberResponse;
-use BrokeYourBike\Paystack\ConfigInterface;
+use BrokeYourBike\Paystack\Models\ResolveAccountNumberResponse;
+use BrokeYourBike\Paystack\Interfaces\ConfigInterface;
 use BrokeYourBike\HttpClient\HttpClientTrait;
 use BrokeYourBike\HttpClient\HttpClientInterface;
 

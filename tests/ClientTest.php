@@ -10,7 +10,7 @@ namespace BrokeYourBike\Paystack\Tests;
 
 use PHPUnit\Framework\TestCase;
 use BrokeYourBike\ResolveUri\ResolveUriTrait;
-use BrokeYourBike\Paystack\ConfigInterface;
+use BrokeYourBike\Paystack\Interfaces\ConfigInterface;
 use BrokeYourBike\Paystack\Client;
 use BrokeYourBike\HttpClient\HttpClientTrait;
 use BrokeYourBike\HttpClient\HttpClientInterface;

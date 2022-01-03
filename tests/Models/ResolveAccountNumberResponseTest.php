@@ -6,10 +6,10 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-namespace BrokeYourBike\Paystack\Tests;
+namespace BrokeYourBike\Paystack\Tests\Models;
 
 use PHPUnit\Framework\TestCase;
-use BrokeYourBike\Paystack\ResolveAccountNumberResponse;
+use BrokeYourBike\Paystack\Models\ResolveAccountNumberResponse;
 
 /**
  * @author Ivan Stasiuk <brokeyourbike@gmail.com>

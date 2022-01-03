@@ -10,8 +10,8 @@ namespace BrokeYourBike\Paystack\Tests;
 
 use Psr\Http\Message\ResponseInterface;
 use PHPUnit\Framework\TestCase;
-use BrokeYourBike\Paystack\ResolveAccountNumberResponse;
-use BrokeYourBike\Paystack\ConfigInterface;
+use BrokeYourBike\Paystack\Models\ResolveAccountNumberResponse;
+use BrokeYourBike\Paystack\Interfaces\ConfigInterface;
 use BrokeYourBike\Paystack\Client;
 
 class ResolveAccountNumberTest extends TestCase
