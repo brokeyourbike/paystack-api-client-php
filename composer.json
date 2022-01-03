@@ -26,7 +26,7 @@
         "ext-json": "*",
         "brokeyourbike/http-client": "^1.0",
         "brokeyourbike/resolve-uri": "^1.0",
-        "brokeyourbike/data-transfer-object": "^0.1.1"
+        "brokeyourbike/data-transfer-object": "^0.2"
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.4",
