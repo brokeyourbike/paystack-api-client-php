@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.3.2](https://www.github.com/brokeyourbike/paystack-api-client-php/compare/v0.3.1...v0.3.2) (2023-05-14)
+
+
+### Bug Fixes
+
+* allow bin ([1a9beda](https://www.github.com/brokeyourbike/paystack-api-client-php/commit/1a9beda99ae74cb95b4b330c659b44b2587af7d6))
+
+
+### Miscellaneous Chores
+
+* badges ([0d963ad](https://www.github.com/brokeyourbike/paystack-api-client-php/commit/0d963addabd5556bbd02f000750df6308195ff1f))
+
 ### [0.3.1](https://www.github.com/brokeyourbike/paystack-api-client-php/compare/v0.3.0...v0.3.1) (2022-01-03)
 
 
