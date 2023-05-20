@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.3](https://www.github.com/brokeyourbike/paystack-api-client-php/compare/v0.3.2...v0.3.3) (2023-05-20)
+
+
+### Miscellaneous Chores
+
+* button ([61f0602](https://www.github.com/brokeyourbike/paystack-api-client-php/commit/61f060220427aa9bf9dc2fb88b0af6f6234e2bf0))
+
 ### [0.3.2](https://www.github.com/brokeyourbike/paystack-api-client-php/compare/v0.3.1...v0.3.2) (2023-05-14)
 
 
